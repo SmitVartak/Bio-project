@@ -52,7 +52,12 @@ Download **UNSW_NB15_training-set.csv** and place it in the `data/` folder:
 ```
 data/UNSW_NB15_training-set.csv
 ```
+### 3. Download the Project
 
+```powershell
+git clone https://github.com/SmitVartak/Bio-project.git
+```
+you might need to set up git bash and authenticate your account first
 ---
 
 ## Running the Project
