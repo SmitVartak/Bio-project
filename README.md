@@ -78,12 +78,6 @@ Outputs:
 python main.py --mode sim
 ```
 
-### Algorithm comparison (Ant vs K-Means vs DBSCAN)
-```powershell
-python main.py --mode compare --steps 200000
-```
-Outputs: `output/comparison.png`
-
 ### Ghost / Zero-Day detection demo
 ```powershell
 python main.py --mode ghost --ghost-profile DoS
