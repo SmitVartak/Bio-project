@@ -1,4 +1,4 @@
-# Swarm-Intelligent Network Intrusion Detection System (NIDS)
+# Ant-Cemetery Network Intrusion Detection System (NIDS)
 ## B.Tech Bio-Inspired Computing Project
 
 Uses **Ant Colony Sorting** (Lumer & Faieta, 1994) to cluster network traffic
@@ -13,12 +13,12 @@ clusters — without the algorithm ever being told what a threat looks like.
 ```
 Bio project/
 ├── data/
-│   └── UNSW_NB15_training-set.csv   ← you download this
+│   └── UNSW_NB15_training-set.csv   ← , you downloaded this
 ├── src/
 │   ├── DataPipeline.py      Load CSV → StandardScaler → PCA → 2D coords
 │   ├── Environment.py       Toroidal 2D grid, item placement, neighbourhood queries
 │   ├── Ant.py               Ant state machine (loaded/unloaded, memory)
-│   ├── ClusteringEngine.py  Pickup / drop probability math (Lumer & Faieta)
+│   ├── ClusteringEngine.py  Pickup/drop probability math (Lumer & Faieta)
 │   └── Simulation.py        Main loop, entropy logging, ghost injection
 ├── viz/
 │   ├── PyGameRenderer.py    Live "God View" Pygame window
@@ -82,7 +82,7 @@ python main.py --mode sim
 ```powershell
 python main.py --mode ghost --ghost-profile DoS
 ```
-Available profiles: `DoS`, `Botnet`, `Recon`, `Normal`
+Available profiles: `DoS`, `Botnet`, `Recon`, `Normal.`
 
 ---
 
