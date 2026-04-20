@@ -4,7 +4,7 @@
 Uses **Ant Colony Sorting** (Lumer & Faieta, 1994) to cluster network traffic
 records from the UNSW-NB15 dataset in an **unsupervised** manner.
 After convergence, malicious and normal packets form spatially distinct
-clusters — without the algorithm ever being told what a threat looks like.
+clusters without the algorithm ever being told what a threat looks like.
 
 ---
 
